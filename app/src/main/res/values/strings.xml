@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Celestial Beam</string>
+    <string name="take_imagefgtgt">Choose Image</string>
+
+    <string name="facebook_app_id">913423680035687</string>
+    <!--    <string name="facebook_app_id">1251798448719972 TEST</string>-->
+
+    <string name="fb_login_protocol_scheme">fb913423680035687</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

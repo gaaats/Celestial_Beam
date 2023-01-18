@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/naaaavivivi"
+    app:startDestination="@id/staaaaaaaaFragment">
+
+    <fragment
+        android:id="@+id/staaaaaaaaFragment"
+        android:name="com.sinyee.babybus.marke.frrrfrfrf.StaaaaaaaaFragment"
+        android:label="fragment_staaaaaaaa"
+        tools:layout="@layout/fragment_staaaaaaaa" >
+        <action
+            android:id="@+id/action_staaaaaaaaFragment_to_laaaastaFragment"
+            app:destination="@id/laaaastaFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/staaaaaaaaFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/laaaastaFragment"
+        android:name="com.sinyee.babybus.marke.frrrfrfrf.LaaaastaFragment"
+        android:label="fragment_laaaasta"
+        tools:layout="@layout/fragment_laaaasta" >
+        <action
+            android:id="@+id/action_laaaastaFragment_to_staaaaaaaaFragment"
+            app:destination="@id/staaaaaaaaFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/staaaaaaaaFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_laaaastaFragment_to_threeeeeeeeeeeeeFragment"
+            app:destination="@id/threeeeeeeeeeeeeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/threeeeeeeeeeeeeFragment"
+        android:name="com.sinyee.babybus.marke.ThreeeeeeeeeeeeeFragment"
+        android:label="fragment_threeeeeeeeeeeee"
+        tools:layout="@layout/fragment_threeeeeeeeeeeee" >
+        <action
+            android:id="@+id/action_threeeeeeeeeeeeeFragment_to_laaaastaFragment"
+            app:destination="@id/laaaastaFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/laaaastaFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
